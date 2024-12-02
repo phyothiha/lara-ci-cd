@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// This file is intended for declaring API routes
 Route::get('/', function () {
     return view('welcome');
 });
